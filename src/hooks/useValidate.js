@@ -1,4 +1,4 @@
-export default function SubmitValidation({ exposuredeadline, salesdeadline }) {
+export default function useValidate({ exposuredeadline, salesdeadline }) {
   const errors = {};
 
   if (!exposuredeadline) {

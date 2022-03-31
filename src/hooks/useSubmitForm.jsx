@@ -1,7 +1,7 @@
 import useForm from './useForm';
-import validate from './validate';
+import validate from './useValidate';
 
-const SubmitForm = () => {
+const useSubmitForm = () => {
   const { values, errors, submitting, handleChange, handleSubmit } = useForm({
     initialValues: {
       exposuredeadline: '',

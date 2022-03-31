@@ -198,7 +198,7 @@ $ yarn start
     "preorderdelivery" : String,
     "mileage" : String,
     "thankyoucard" : String
-		}
+	}
 }
 ```
 
